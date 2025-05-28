@@ -1,11 +1,10 @@
-import logging
-logging.basicConfig(level=logging.DEBUG)
-
 import streamlit as st
 import fitz  # PyMuPDF
 import io
 import zipfile
 import os
+import logging
+logging.basicConfig(level=logging.DEBUG)
 
 st.set_page_config(page_title="Compresor PDF en ZIP", layout="centered")
 st.title("📚 Compresor de PDFs en ZIP")
